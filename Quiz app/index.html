@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h2>🌍 General Knowledge Quiz</h2>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <p class="question-number">Question <span id="current-q">1</span> of 10</p>
+        </div>
+
+        <div class="quiz-body">
+            <h3 class="question-text" id="question-text">Loading question...</h3>
+            
+            <div class="options-container">
+                <button class="option-btn">Option 1</button>
+                <button class="option-btn">Option 2</button>
+                <button class="option-btn">Option 3</button>
+                <button class="option-btn">Option 4</button>
+            </div>
+        </div>
+
+        <div class="quiz-footer">
+            <button class="hint-btn" id="hint-btn">💡 Need a Hint?</button>
+            <button class="next-btn" id="next-btn" disabled>Next Question ➡️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
